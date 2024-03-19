@@ -20,9 +20,12 @@
         <developerConnection>scm:git:git@github.com/vijay2181/java-maven-ci.git</developerConnection>
     </scm>
 
-    <properties>
-          <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+   <properties>
+    <sonar.host.url>http://35.165.197.226:9000</sonar.host.url>
+    <sonar.login>admin</sonar.login>
+    <sonar.password>admin123</sonar.password>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+</properties>
 
     <distributionManagement>
         <snapshotRepository>
